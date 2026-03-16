@@ -35,12 +35,12 @@ sncf-data-engineering-project\
 ├── scripts\
 │   └── setup.sh\
 │\
-└── README.md
+└── README.md\
 
 
 ## But final de la pipeline : 
-Task 1 : récupérer API
-Task 2 : lancer Spark job
-Task 3 : vérifier les données
-Task 4 : update tables
-Task 5 : refresh dashboards
+Task 1 : récupérer API\
+Task 2 : lancer Spark job\
+Task 3 : vérifier les données\
+Task 4 : update tables\
+Task 5 : refresh dashboards\
