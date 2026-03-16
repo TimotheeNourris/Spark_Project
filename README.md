@@ -19,3 +19,27 @@ Task 2 : lancer Spark job
 Task 3 : vérifier les données
 Task 4 : update tables
 Task 5 : refresh dashboards
+
+Structure du projet : 
+sncf-data-engineering-project
+│
+├── docker-compose.yml
+├── .env
+│
+├── spark-jobs
+│   ├── build.sbt
+│   └── src/main/scala
+│       └── SncfIngest.scala
+│
+├── airflow
+│   └── dags
+│       └── sncf_pipeline.py
+│
+├── data
+│   ├── raw
+│   └── parquet
+│
+├── scripts
+│   └── setup.sh
+│
+└── README.md
